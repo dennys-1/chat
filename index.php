@@ -10,7 +10,7 @@ include "db.php";
     <title>Chat-Campus</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<script type="text/javascript">
+<!--<script type="text/javascript">
     function ajax(){
         var req=new XMLHttpRequest();
         req.onreadystatechange=function(){
@@ -22,7 +22,7 @@ include "db.php";
         req.send();
     }
     setInterval(function(){ajax();},100);
-</script>
+</script>-->
 <h1>hola</h1>
 <body onload="ajax();">
     <div id="contenedor">
